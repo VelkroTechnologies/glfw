@@ -3,6 +3,7 @@ project "GLFW"
     language "C"
     staticruntime "off"
     warnings "off"
+    architecture "x64"
 
     targetdir ("bin/%{prj.name}/%{cfg.architecture}-%{cfg.buildcfg}")
     objdir ("bin-int/%{prj.name}/%{cfg.architecture}-%{cfg.buildcfg}")
