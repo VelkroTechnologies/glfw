@@ -1,0 +1,1 @@
+premake5 --file=GLFW.lua gmake2

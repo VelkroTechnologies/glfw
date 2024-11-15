@@ -1,0 +1,1 @@
+find . -name "Makefile" -type f -delete && rm -r bin && rm -r bin-int
